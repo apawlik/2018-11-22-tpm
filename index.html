@@ -1,24 +1,20 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS.
-venue: "FIXME"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "FIXME"      # street address of workshop (e.g., "123 Forth Street, Blimingen, Euphoria")
-country: "FIXME"      # country (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_3166-1)
-language: "FIXME"     # language (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_639-1)
+venue: "Te Pūnaha Matatini - Research Data Workshop"        # brief name of host site without address (e.g., "Euphoric State University")
+address: "The University of Auckland, Building 303, Room 303S-G75"      # street address of workshop (e.g., "123 Forth Street, Blimingen, Euphoria")
+country: "nz"      # country (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_3166-1)
+language: "en"     # language (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "FIXME"       # fractional latitude and longitude (e.g., "41.7901128,-87.6007318"; you can use http://www.latlong.net/)
-humandate: "FIXME"    # human-readable date (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable time (e.g., "9:00 am - 4:30 pm")
-startdate: FIXME      # use YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # use YYYY-MM-DD format like 2015-01-02
-instructor: ["FIXME"] # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: "FIXME"      # contact email address for workshop organizer, such as "grace@hopper.org"
+humandate: "3rd February, 2017"    # human-readable date (e.g., "Feb 17-18, 2020")
+humantime: "10am - 4pm"    # human-readable time (e.g., "9:00 am - 4:30 pm")
+startdate: 2017-02-03      # use YYYY-MM-DD format like 2015-01-01
+enddate: 2017-02.03        # use YYYY-MM-DD format like 2015-01-02
+instructor: ["Aleksandra Pawlik"] # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+contact: "aleksandra.pawlik@nesi.org.nz"      # contact email address for workshop organizer, such as "grace@hopper.org"
 etherpad:         # optional (insert the URL for your Etherpad if you're using one)
 eventbrite:       # optional (insert the alphanumeric key for Eventbrite registration, e.g., "1234567890AB")
-day1_am: "Data organization in spreadsheets and OpenRefine"
-day1_pm: "Introduction to R"
-day2_am: "Data analysis and visualization in R"
-day2_pm: "SQL for data management"
+
 ---
 <!--
   HEADER
@@ -55,14 +51,16 @@ day2_pm: "SQL for data management"
   the pitch.
 -->
 <p>
-<a href=http://datacarpentry.org>Data Carpentry</a> workshops are for any researcher 
-who has data they want to analyze, and no prior computational experience is required. 
-This hands-on workshop teaches basic concepts, skills and tools for working more 
-effectively with data. 
+  This Te Pūnaha Matatini workshop will provide you with skills essential for efficient manipulation
+  of research data. We will try out tools useful for data analysis, visualisation and reporting the results of 
+  your research. We will talk about the importance of reproducibility your research. </p>
+<p> The workshop is based on the <a href=http://datacarpentry.org>Data Carpentry</a> workshops. We will use Data Carpentry
+  training materials.
 </p>
 <p>
-We will cover {{page.day1_am}}, {{page.day1_pm}}, {{page.day2_am}} and {{page.day2_pm}}.
-
+We will cover: Caveats of using spreadsheets for data manipulation, introduction to using Jupyter Notebook for
+  data analysis, introduction to data manipulation and visualisation using Python programming language. </p>
+<p>
 Participants should bring their laptops and plan to participate actively. By the end of the workshop learners should be able to more effectively manage and analyze data and be able to apply the tools and approaches directly to their ongoing research.
 </p>
 
@@ -74,7 +72,7 @@ Participants should bring their laptops and plan to participate actively. By the
 -->
 <p>
   <strong>Who:</strong>
-  The course is aimed at graduate students and other researchers.
+  The course is aimed at graduate students at Te Pūnaha Matatini.
 </p>
 
 <!--
@@ -137,34 +135,28 @@ Participants should bring their laptops and plan to participate actively. By the
   to match your plans.  You may also want to change 'Day 1' and 'Day
   2' to be actual dates or days of the week.
 -->
-<h2>Preliminary Schedule</h2>
+<h2> Schedule</h2>
 
-<!-- DO NOT EDIT SURVEY LINKS -->
-<p><em>Surveys</em></p>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href='{{ site.dc_pre_survey }}'>Pre-workshop Survey</a></p>
-<p><a href='{{ site.dc_post_survey }}'>Post-workshop Survey</a></p>
+
 
 
 
 <div class="row">
   <div class="col-md-6">
 
-    <h3>Day 1</h3>
+    <h3>Friday, 3rd February</h3>
     <table class="table table-striped">
-      <tr> <td>Morning</td>  <td>{{page.day1_am}}</td> </tr>
-       <tr> <td>Afternoon</td>  <td>{{page.day1_pm}}</td> </tr>
+      <tr> <td>10.00 am</td>  <td>Arrival and welcome</td> </tr>
+       <tr> <td>10.30 am</td>  <td>Working with research data - introduction</td> </tr>
+       <tr> <td>11.00 am</td>  <td>Caveats of using spreadsheets for data analysis and introduction to Jupyter Notebook</td> </tr>
+       <tr> <td>1.00 pm </td>  <td>Lunch</td> </tr>
+       <tr> <td>2.00 pm</td>  <td>Data analysis and visualisation with Python</td> </tr>
+       <tr> <td>3.00 pm</td>  <td>Afternoon tea</td> </tr>
+           <tr> <td>3.20 pm</td>  <td>How to develop data analysis skills further?</td> </tr>
+             <tr> <td>4.00 pm</td>  <td>Wrap up</td> </tr>
     </table>
  
  
-    <h3>Day 2</h3>
-    <table class="table table-striped">
-      <tr> <td>Morning</td>  <td>{{page.day2_am}}</td> </tr>
-      <tr> <td>Afternoon</td>  <td>{{page.day2_pm}}</td> </tr>
-    </table>
- </div>
-</div>
-
 <!--
   ETHERPAD
 
@@ -298,17 +290,90 @@ Participants should bring their laptops and plan to participate actively. By the
 <h2 id="setup">Setup</h2>
 
 <p>
-To participate in a Data Carpentry workshop, you will need working copies of the 
-described software. Please make sure to install everything (or at least to download 
-the installers) before the start of your workshop. Participants should bring and use 
-their own laptops to insure the proper setup of tools for an efficient workflow 
-once you leave the workshop.
-<p>
-Please follow these <a href=install.html>Setup Instructions</a>.
+  If you are bringing your laptop to the workshop, please make sure that you installed the Anaconda package. Please see the details below.
+  
+  
+    </p>
 
-<p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
-</p>
 
+    
+   <div id="python"> <!-- Start of 'Python' section. Remove the third paragraph if
+           the workshop will teach Python using something other than
+           the IPython notebook.
+           Details at http://ipython.org/ipython-doc/2/install/install.html#browser-compatibility -->
+
+
+  <p>
+    <a href="http://python.org">Python</a> is a popular language for
+    scientific computing, and great for general-purpose programming as
+    well.  Installing all of its scientific packages individually can be
+    a bit difficult, so we recommend
+    <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a>,
+    an all-in-one installer.
+  </p>
+
+    <p>
+      Regardless of how you choose to install it,
+      <strong>please make sure you install Python version 3.x</strong>
+      (e.g., 3.4 is fine).
+    </p>
+
+    <p>
+      We will teach Python using the Jupyter notebook, a programming environment
+      that runs in a web browser. For this to work you will need a reasonably
+      up-to-date browser. The current versions of the Chrome, Safari and
+      Firefox browsers are all supported
+      (some older browsers, including Internet Explorer version 9
+      and below, are not).
+    </p>
+
+  <div class="row">
+    <div class="col-md-4">
+      <h4 id="python-windows">Windows</h4>
+      <ol>
+        <li>Open <a href="http://continuum.io/downloads">http://continuum.io/downloads</a> with your web browser.</li>
+        <li>Click on "I want Python 3.X" link.</li>
+        <li>Download this Python 3 installer.</li>
+        <li>Install Python 3 using all of the defaults for installation <em>except</em> make sure to check <strong>Make Anaconda the default Python</strong>.</li>
+      </ol>
+    </div>
+    <div class="col-md-4">
+      <h4 id="python-macosx">Mac OS X</h4>
+      <ol>
+        <li>Open <a href="http://continuum.io/downloads">http://continuum.io/downloads</a> with your web browser.</li>
+        <li>Click on "I want Python 3.X" link.</li>
+        <li>Download this Python 3 installer.</li>
+        <li>Install Python 3 using all of the defaults for installation.</li>
+      </ol>
+    </div>
+    <div class="col-md-4">
+      <h4 id="python-linux">Linux</h4>
+      </p>
+      <ol>
+        <li>Open <a href="http://continuum.io/downloads">http://continuum.io/downloads</a> with your web browser.</li>
+        <li>Click on "I want Python 3.X" link.</li>
+        <li>Download this Python 3 installer, save it in your home folder.</li>
+        <li>Install Python 3 using all of the defaults for installation.
+        (Installation requires using the shell. If you aren't
+        comfortable doing the installation yourself
+        stop here and request help at the workshop.)</li>
+        <li>
+          Open a terminal window.
+        </li>
+        <li>
+          Type <pre>bash Anaconda-</pre> and then press
+          tab. The name of the file you just downloaded should
+          appear.
+        </li>
+        <li>
+          Press enter. You will follow the text-only prompts.  When
+          there is a colon at the bottom of the screen press the down
+          arrow to move down through the text. Type <code>yes</code> and
+          press enter to approve the license. Press enter to approve the
+          default location for the files. Type <code>yes</code> and
+          press enter to prepend Anaconda to your <code>PATH</code>
+          (this makes the Anaconda distribution the default Python).
+        </li>
+      </ol>
+    </div>
+  </div>
