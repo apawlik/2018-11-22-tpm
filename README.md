@@ -1,5 +1,5 @@
-This repository contains a website for the Data Skills workshop for Te Punaha Matatini students. 
+This repository contains a website for the Data Skills workshop for Te Pūnaha Matatini Summer interns.
 
 Location: The University of Auckland
 
-When: 20th November 2017
+When: 22nd November 2018
