@@ -2,4 +2,4 @@ This repository contains a website for the Data Skills workshop for Te Pūnaha M
 
 Location: The University of Auckland
 
-When: 22nd November 2018
+When: 20th November 2018
